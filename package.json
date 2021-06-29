@@ -1,6 +1,6 @@
 {
-  "name": "vue-super-flow",
-  "version": "1.3.6",
+  "name": "@freecoder/codevue-super-flow",
+  "version": "1.0.3",
   "keywords": [
     "flowChart",
     "super flow",
@@ -8,10 +8,10 @@
     "vue 流程图"
   ],
   "license": "MIT",
-  "description": "Vue-super-flow is a quick and convenient Vue plug-in to realize flow chart. Demo address: https://caohuatao.github.io/demo/;",
+  "description": "Vue-super-flow is a quick and convenient Vue plug-in to realize flow chart.",
   "main": "lib/index.umd.min.js",
-  "author": "caohuatao <351995664@qq.com>",
-  "homepage": "https://github.com/caohuatao/vue-super-flow",
+  "author": "Ken",
+  "homepage": "https://github.com/finding/vue-super-flow",
   "files": [
     "/lib/index.umd.min.js",
     "/lib/index.css",

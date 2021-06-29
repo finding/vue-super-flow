@@ -5,23 +5,21 @@
 * A flowchart editor component base on Vue.
 * Vue flowchart.
 * Vue 流程图。
-* [Demo](https://caohuatao.github.io/demo/)
-* [docs](https://caohuatao.github.io)
 
 ## Installation
 
 ```npm
 
-npm install vue-super-flow
+npm install @freecoder/codevue-super-flow
 
-yarn add vue-super-flow
+yarn add @freecoder/codevue-super-flow
 
 ```
 
 ```js
 
-import SuperFlow from 'vue-super-flow'
-import 'vue-super-flow/lib/index.css'
+import SuperFlow from '@freecoder/codevue-super-flow'
+import '@freecoder/vue-super-flow/lib/index.css'
 
 Vue.use(SuperFlow)
 
@@ -105,10 +103,4 @@ function linkStyle(link) {
 
 ## Example
 
-![默认示例](https://s1.ax1x.com/2020/07/27/ai6iAe.gif)
-
-![进阶示例](https://s1.ax1x.com/2020/07/27/aisqzt.gif)
-
-## 交流微信群
-![](https://user-images.githubusercontent.com/44050286/123766806-9436ae80-d8f9-11eb-8cbd-a56cf2d0fad5.png)
 
