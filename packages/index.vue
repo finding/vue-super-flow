@@ -59,7 +59,8 @@
       <template v-slot="{meta}">
         <slot
           name="node"
-          :meta="meta">
+          :meta="meta"
+          :node="node">
         </slot>
       </template>
     </graph-node>

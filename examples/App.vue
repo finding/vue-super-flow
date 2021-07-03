@@ -16,8 +16,8 @@
       :enter-intercept="enterIntercept"
       :output-intercept="outputIntercept"
       :link-desc="linkDesc">
-      <template v-slot:node="{meta}">
-        <div :class="`flow-node flow-node-${meta.prop}`">
+      <template v-slot:node="{meta, node}">
+        <div :class="`flow-node flow-node-${meta.prop}`" @click="nodeClick(meta, node)">
           <header>
             {{meta.name}}
           </header>
@@ -463,6 +463,9 @@
       },
       linkDesc(link) {
         return link.meta ? link.meta.desc : ''
+      },
+      nodeClick(meta) {
+        console.log('nodeClick', arguments)
       }
     }
   }
